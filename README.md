@@ -173,8 +173,7 @@ int columbiaC5 = 5;
     int denmarkD5 = 0;
     int columbiaD5 = 1;
 
-    
-    
+
     //group C (Chile, Sweden, Netherlands, Mexico)
     
     int chile = 0, sweden = 0, netherlands = 0, mexico = 0;
@@ -1562,6 +1561,8 @@ int columbiaC5 = 5;
         austria += 1;
     }
 
+    
+
     //1st place results of group E
    if (brazil > germany && brazil > austria && brazil > senegal) {
         cout << "Brazil is the winner of Group E" << endl;
@@ -2096,10 +2097,87 @@ if (usaV5 > peruV5) {
     usa += 1;
 }
 
-if (usaV5 > wales5) {
+if (usaV5 > walesV5) {
     usa += 1;
 }
 
+//poland # of goals victory in last 5 games
+if (polandV5 > usaV5) {
+    poland += 1;
+}
+
+if (polandV5 > peruV5) {
+    poland += 1;
+}
+
+if (polandV5 > walesV5) {
+    poland += 1;
+}
+
+//peru # of goals victory in last 5 games
+if (peruV5 > usaV5) {
+    peru += 1;
+}
+
+if (peruV5 > peruV5) {
+    peru += 1;
+}
+
+if (peruV5 > walesV5) {
+    peru += 1;
+}
+
+//wales # of goals defeat in last 5 games
+if (walesD5 > polandD5) {
+    wales += 1;
+}
+
+if (walesD5 > peruD5) {
+    wales += 1;
+}
+
+if (walesD5 > usaD5) {
+    wales += 1;
+}
+
+//usa # of goals defeat in last 5 games
+if (usaD5 > polandD5) {
+    usa += 1;
+}
+
+if (usaD5 > peruD5) {
+    usa += 1;
+}
+
+if (usaD5 > walesD5) {
+    usa += 1;
+}
+
+//poland # of goals defeat in last 5 games
+if (polandD5 > usaD5) {
+    poland += 1;
+}
+
+if (polandD5 > peruD5) {
+    poland += 1;
+}
+
+if (polandD5 > walesD5) {
+    poland += 1;
+}
+
+//peru # of goals defeat in last 5 games
+if (peruD5 > usaD5) {
+    peru += 1;
+}
+
+if (peruD5 > peruD5) {
+    peru += 1;
+}
+
+if (peruD5 > walesD5) {
+    peru += 1;
+}
 
     //1st place results of group D
      if (peru > wales && peru > usa && peru > poland) {
@@ -2783,8 +2861,6 @@ if (fmexico > fsweden) {
     mexico += 4;
 }
 
-
-
      //first place results of group C
      if (chile > netherlands && chile > sweden && chile > mexico) {
         cout << "Chile is the winner of Group C" << endl;
@@ -2960,9 +3036,6 @@ if (fmexico > fsweden) {
     }
     else {} 
  
-
-
-     
     //group B
 
     //attack of croatia
