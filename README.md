@@ -1258,6 +1258,371 @@ int columbiaC5 = 5;
          spain += 1;
      } 
 
+    
+     //cost of spain
+    if (spaincost > romaniacost) {
+    spain += 1;
+}
+
+    if (spaincost > englandcost) {
+    spain += 1;
+}
+
+    if (spaincost > icelandcost) {
+    spain += 1;
+}
+
+//cost of romania
+    if (romaniacost > spaincost) {
+    romania += 1;
+}
+
+    if (romaniacost > englandcost) {
+    romania += 1;
+}
+
+    if (romaniacost > icelandcost) {
+    romania += 1;
+}
+
+//cost of england
+    if (englandcost > spaincost) {
+    england += 1;
+}
+
+    if (englandcost > romaniacost) {
+    england += 1;
+}
+
+    if (englandcost > icelandcost) {
+    england += 1;
+}
+
+//cost of iceland
+    if (icelandcost > spaincost) {
+    iceland += 1;
+}
+
+    if (icelandcost > englandcost) {
+    iceland += 1;
+}
+
+    if (icelandcost > romaniacost) {
+    iceland += 1;
+}
+
+//population of spain
+if (spainpop > romaniapop) {
+    spain += 1;
+}
+
+if (spainpop > englandpop) {
+    spain += 1;
+}
+
+if (spainpop > icelandpop) {
+    spain += 1;
+}
+
+//population of england
+if (englandpop > romaniapop) {
+    england+= 1;
+}
+
+if (englandpop > spainpop) {
+    england += 1;
+}
+
+if (englandpop > icelandpop) {
+    england += 1;
+}
+
+//population of iceland
+if (icelandpop > romaniapop) {
+    iceland+= 1;
+}
+
+if (icelandpop > spainpop) {
+    iceland += 1;
+}
+
+if (icelandpop > englandpop) {
+    iceland += 1;
+}
+
+//population of romania
+if (romaniapop > englandpop) {
+    romania += 1;
+}
+
+if (romaniapop > spainpop) {
+    romania += 1;
+}
+
+if (romaniapop > icelandpop) {
+    romania += 1;
+}
+
+//spain # of goals score in last 5 games
+if (spain5 > england5) {
+    spain += 1;
+}
+
+if (spain5 > romania5) {
+    spain += 1;
+}
+
+if (spain5 > iceland5) {
+    spain += 1;
+}
+
+//england # of goals score in last 5 games
+if (england5 > romania5) {
+    england += 1;
+}
+
+if (england5 > spain5) {
+    england += 1;
+}
+
+if (england5 > iceland5) {
+    england += 1;
+}
+
+//iceland # of goals score in last 5 games
+if (iceland5 > romania5) {
+    iceland += 1;
+}
+
+if (iceland5 > spain5) {
+    iceland += 1;
+}
+
+if (iceland5 > england5) {
+    iceland += 1;
+}
+
+//romania # of goals score in last 5 games
+if (romania5 > iceland5) {
+    romania += 1;
+}
+
+if (romania5 > spain5) {
+    romania += 1;
+}
+
+if (romania5 > england5) {
+    romania += 1;
+}
+
+//spain # of goals conceded in last 5 games
+if (spainC5 > romaniaC5) {
+    spain -= 1;
+}
+
+if (spainC5 > englandC5) {
+    spain -= 1;
+}
+
+if (spainC5 > icelandC5) {
+    spain -= 1;
+}
+
+//england # of goals conceded in last 5 games
+if (englandC5 > romaniaC5) {
+    england -= 1;
+}
+
+if (englandC5 > spainC5) {
+    england -= 1;
+}
+
+if (englandC5 > icelandC5) {
+    england -= 1;
+}
+
+//romania # of goals conceded in last 5 games
+if (romaniaC5 > englandC5) {
+    romania -= 1;
+}
+
+if (romaniaC5 > spainC5) {
+    romania -= 1;
+}
+
+if (romaniaC5 > icelandC5) {
+    romania -= 1;
+}
+
+//iceland # of goals conceded in last 5 games
+if (icelandC5 > englandC5) {
+    iceland -= 1;
+}
+
+if (icelandC5 > spainC5) {
+    iceland -= 1;
+}
+
+if (icelandC5 > romaniaC5) {
+    iceland -= 1;
+}
+
+//spain # of goals victory in last 5 games
+if (spainV5 > englandV5) {
+    spain += 1;
+}
+
+if (spainV5 > icelandV5) {
+    spain += 1;
+}
+
+if (spainV5 > romaniaV5) {
+    spain += 1;
+}
+
+//england # of goals victory in last 5 games
+if (englandV5 > spainV5) {
+    england += 1;
+}
+
+if (englandV5 > icelandV5) {
+    england += 1;
+}
+
+if (englandV5 > romaniaV5) {
+    england += 1;
+}
+
+//iceland # of goals victory in last 5 games
+if (icelandV5 > spainV5) {
+    iceland += 1;
+}
+
+if (icelandV5 > englandV5) {
+    iceland += 1;
+}
+
+if (icelandV5 > romaniaV5) {
+    iceland += 1;
+}
+
+//romania # of goals victory in last 5 games
+if (romaniaV5 > spainV5) {
+    romania += 1;
+}
+
+if (romaniaV5 > englandV5) {
+    romania += 1;
+}
+
+if (romaniaV5 > icelandV5) {
+    romania += 1;
+}
+
+//spain # of goals defeat in last 5 games
+if (spainD5 > englandD5) {
+    spain -= 1;
+}
+
+if (spainD5 > romaniaD5) {
+    spain -= 1;
+}
+
+if (spainD5 > icelandD5) {
+    spain -= 1;
+}
+
+//england # of goals defeat in last 5 games
+if (englandD5 > spainD5) {
+    england -= 1;
+}
+
+if (englandD5 > romaniaD5) {
+    england -= 1;
+}
+
+if (englandD5 > icelandD5) {
+    england -= 1;
+}
+
+//iceland # of goals defeat in last 5 games
+if (icelandD5 > spainD5) {
+    iceland -= 1;
+}
+
+if (icelandD5 > romaniaD5) {
+    iceland -= 1;
+}
+
+if (icelandD5 > englandD5) {
+    iceland -= 1;
+}
+
+//romania # of goals defeat in last 5 games
+if (romaniaD5 > spainD5) {
+    romania -= 1;
+}
+
+if (romaniaD5 > icelandD5) {
+    romania -= 1;
+}
+
+if (romaniaD5 > englandD5) {
+    romania -= 1;
+}
+
+//spain factor of unexpectancy
+if (fspain > fromania) {
+    spain += 4;
+}
+
+if (fspain > ficeland) {
+    spain += 4;
+}
+
+if (fspain > fengland) {
+    spain += 4;
+}
+
+//england factor of unexpectancy
+if (fengland > fromania) {
+    england += 4;
+}
+
+if (fengland > ficeland) {
+    england += 4;
+}
+
+if (fengland > fspain) {
+    england += 4;
+}
+
+//iceland factor of unexpectancy
+if (ficeland > fromania) {
+    iceland += 4;
+}
+
+if (ficeland > fengland) {
+    iceland += 4;
+}
+
+if (ficeland > fspain) {
+    iceland += 4;
+}
+
+//romania factor of unexpectancy
+if (fromania > ficeland) {
+    romania += 4;
+}
+
+if (fromania > fengland) {
+    romania += 4;
+}
+
+if (fromania > fspain) {
+    romania += 4;
+}
+
      //1st place results of group F
      if (spain > romania && spain > england && spain > iceland) {
         cout << "Spain is the winner of Group F" << endl;
@@ -1561,7 +1926,369 @@ int columbiaC5 = 5;
         austria += 1;
     }
 
-    
+    //cost of brazil
+    if (brazilcost > germanycost) {
+    brazil += 1;
+}
+
+    if (brazilcost > senegalcost) {
+    brazil += 1;
+}
+
+    if (brazilcost > austriacost) {
+    brazil += 1;
+}
+
+//cost of germany
+    if (germanycost > brazilcost) {
+    germany += 1;
+}
+
+    if (germanycost > senegalcost) {
+    germany += 1;
+}
+
+    if (germanycost > austriacost) {
+    germany += 1;
+}
+
+//cost of senegal
+    if (senegalcost > brazilcost) {
+    senegal += 1;
+}
+
+    if (senegalcost > germanycost) {
+    senegal += 1;
+}
+
+    if (senegalcost > austriacost) {
+    senegal += 1;
+}
+
+//cost of austria
+    if (austriacost > brazilcost) {
+    austria += 1;
+}
+
+    if (austriacost > germanycost) {
+    austria += 1;
+}
+
+    if (austriacost > senegalcost) {
+    austria += 1;
+}
+
+//population of brazil
+if (brazilpop > germanypop) {
+    brazil += 1;
+}
+
+if (brazilpop > senegalpop) {
+    brazil += 1;
+}
+
+if (brazilpop > austriapop) {
+    brazil += 1;
+}
+
+//population of germany
+if (germanypop > brazilpop) {
+    germany += 1;
+}
+
+if (germanypop > senegalpop) {
+    germany += 1;
+}
+
+if (germanypop > austriapop) {
+    germany += 1;
+}
+
+//population of senegal
+if (senegalpop > brazilpop) {
+    senegal += 1;
+}
+
+if (senegalpop > germanypop) {
+    senegal += 1;
+}
+
+if (senegalpop > austriapop) {
+    senegal += 1;
+}
+
+//population of austria
+if (austriapop > brazilpop) {
+    austria += 1;
+}
+
+if (austriapop > germanypop) {
+    austria += 1;
+}
+
+if (austriapop > senegalpop) {
+    austria += 1;
+}
+
+//brazil # of goals score in last 5 games
+if (brazil5 > germany5) {
+    brazil += 1;
+}
+
+if (brazil5 > senegal5) {
+    brazil += 1;
+}
+
+if (brazil5 > austria5) {
+    brazil += 1;
+}
+
+//germany # of goals score in last 5 games
+if (germany5 > brazil5) {
+    germany += 1;
+}
+
+if (germany5 > senegal5) {
+    germany += 1;
+}
+
+if (germany5 > austria5) {
+    germany += 1;
+}
+
+//senegal # of goals score in last 5 games
+if (senegal5 > brazil5) {
+    senegal += 1;
+}
+
+if (senegal5 > germany5) {
+    senegal += 1;
+}
+
+if (senegal5 > austria5) {
+    senegal += 1;
+}
+
+//austria # of goals score in last 5 games
+if (austria5 > brazil5) {
+    austria += 1;
+}
+
+if (austria5 > germany5) {
+    austria += 1;
+}
+
+if (austria5 > senegal5) {
+    austria += 1;
+}
+
+//brazil # of goals conceded in last 5 games
+if (brazilC5 > germanyC5) {
+    brazil -= 1;
+}
+
+if (brazilC5 > senegalC5) {
+    brazil -= 1;
+}
+
+if (brazilC5 > austriaC5) {
+    brazil -= 1;
+}
+
+//germany # of goals conceded in last 5 games
+if (germanyC5 > brazilC5) {
+    germany -= 1;
+}
+
+if (germanyC5 > senegalC5) {
+    germany -= 1;
+}
+
+if (germanyC5 > austriaC5) {
+    germany -= 1;
+}
+
+//senegal # of goals conceded in last 5 games
+if (senegalC5 > brazilC5) {
+    senegal -= 1;
+}
+
+if (senegalC5 > germanyC5) {
+    senegal -= 1;
+}
+
+if (senegalC5 > austriaC5) {
+    senegal -= 1;
+}
+
+//austria # of goals conceded in last 5 games
+if (austriaC5 > brazilC5) {
+    austria -= 1;
+}
+
+if (austriaC5 > germanyC5) {
+    austria -= 1;
+}
+
+if (austriaC5 > senegalC5) {
+    austria -= 1;
+}
+
+//brazil # of goals victory in last 5 games
+if (brazilV5 > germanyV5) {
+    brazil += 1;
+}
+
+if (brazilV5 > senegalV5) {
+    brazil += 1;
+}
+
+if (brazilV5 > austriaV5) {
+    brazil += 1;
+}
+
+//germany # of goals victory in last 5 games
+if (germanyV5 > brazilV5) {
+    germany += 1;
+}
+
+if (germanyV5 > senegalV5) {
+    germany += 1;
+}
+
+if (germanyV5 > austriaV5) {
+    germany += 1;
+}
+
+//senegal # of goals victory in last 5 games
+if (senegalV5 > brazilV5) {
+    gsenegal += 1;
+}
+
+if (senegalV5 > germanyV5) {
+    senegal += 1;
+}
+
+if (senegalV5 > austriaV5) {
+    senegal += 1;
+}
+
+//austria # of goals victory in last 5 games
+if (austriaV5 > brazilV5) {
+    austria += 1;
+}
+
+if (austriaV5 > senegalV5) {
+    austria += 1;
+}
+
+if (austriaV5 > germany5) {
+    austria += 1;
+}
+
+//brazil # of goals defeat in last 5 games
+if (brazilD5 > germanyD5) {
+    brazil -= 1;
+}
+
+if (brazilD5 > senegalD5) {
+    brazil -= 1;
+}
+
+if (brazilD5 > austriaD5) {
+    brazil -= 1;
+}
+
+//germany # of goals defeat in last 5 games
+if (germanyD5 > brazilD5) {
+    germany -= 1;
+}
+
+if (germanyD5 > senegalD5) {
+    germany -= 1;
+}
+
+if (germanyD5 > austriaD5) {
+    germany -= 1;
+}
+
+//senegal # of goals defeat in last 5 games
+if (senegalD5 > brazilD5) {
+    senegal -= 1;
+}
+
+if (senegalD5 > germanyD5) {
+    senegal -= 1;
+}
+
+if (senegalD5 > austriaD5) {
+    senegal -= 1;
+}
+
+//austria # of goals defeat in last 5 games
+if (austriaD5 > brazilD5) {
+    austria -= 1;
+}
+
+if (austriaD5 > germanyD5) {
+    austria -= 1;
+}
+
+if (austriaD5 > austriaD5) {
+    austria -= 1;
+}
+
+//brazil factor of unexpectancy
+if (fbrazil > fgermany) {
+    brazil += 4;
+}
+
+if (fbrazil > fsenegal) {
+    brazil += 4;
+}
+
+if (fbrazil > faustria) {
+    brazil+= 4;
+}
+
+//germany factor of unexpectancy
+if (fgermany > fbrazil) {
+    germany += 4;
+}
+
+if (fgermany > fsenegal) {
+    germany += 4;
+}
+
+if (fgermany > faustria) {
+    germany += 4;
+}
+
+//senegal factor of unexpectancy
+if (fsenegal > fbrazil) {
+    senegal += 4;
+}
+
+if (fsenegal > fgermany) {
+    senegal += 4;
+}
+
+if (fsenegal > faustria) {
+    senegal += 4;
+}
+
+//austria factor of unexpectancy
+if (faustria > fbrazil) {
+    austria += 4;
+}
+
+if (faustria > fgermany) {
+    austria += 4;
+}
+
+if (faustria > fsenegal) {
+    austria += 4;
+}
 
     //1st place results of group E
    if (brazil > germany && brazil > austria && brazil > senegal) {
@@ -2177,6 +2904,58 @@ if (peruD5 > peruD5) {
 
 if (peruD5 > walesD5) {
     peru += 1;
+}
+
+//wales factor of unexpectancy
+if (fwales > fusa) {
+    wales += 4;
+}
+
+if (fwales > fpoland) {
+    wales += 4;
+}
+
+if (fwales > fperu) {
+    wales+= 4;
+}
+
+//usa factor of unexpectancy
+if (fusa > fwales) {
+    usa += 4;
+}
+
+if (fusa > fpoland) {
+    usa += 4;
+}
+
+if (fusa > fperu) {
+    usa += 4;
+}
+
+//poland factor of unexpentancy
+if (fpoland > fwales) {
+    poland += 4;
+}
+
+if (fpoland > fusa) {
+    poland += 4;
+}
+
+if (fpoland > fperu) {
+    poland += 4;
+}
+
+//peru factor of unexpentancy
+if (fperu > fwales) {
+    peru += 4;
+}
+
+if (fperu > fusa) {
+    peru += 4;
+}
+
+if (fperu > fpoland) {
+    peru += 4;
 }
 
     //1st place results of group D
