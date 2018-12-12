@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <ctime>
 using namespace std;
 
 int main () {
@@ -69,6 +70,48 @@ int main () {
     int australiadeffence = 79;
     int irandeffence = 75;
 
+    //factor of unexpectancy
+    int fportugal = rand() % 100;
+    int fitaly = rand() % 100;
+    int faustralia = rand() % 100;
+    int firan = rand() % 100;
+
+    //currency in Euros
+double italycost = 426000000;
+double portugalcost = 466000000;
+double australiacost = 46000000;
+double irancost = 43000000;
+
+//popuplation
+double italypop = 59257878;
+double portugalpop = 10274947;
+double australiapop = 24912343;
+double iranpop = 24912343;
+
+//# of goals score in last 5 games
+int italy5 = 3;
+int portugal5 = 8;
+int australia5 = 9;
+int iran5 = 6;
+
+//# of goals conceded in last 5 games
+int italyC5 = 2;
+int portugalC5 = 4;
+int australiaC5 = 4;
+int iranC5 = 3;
+
+//# of victories in last 5 games
+int italyV5 = 2;
+int portugalV5 = 3;
+int australiaV5 = 2;
+int iranV5 = 3;
+
+//# of defeats in last 5 games
+int italyD5 = 1;
+int portugalD5 = 0;
+int australiaD5 = 1;
+int iranD5 = 0;
+
     //group B (Croatia, Belgium, Denmark, Columbia)
 
     int croatia = 0, belgium = 0, denmark = 0, columbia = 0;
@@ -87,6 +130,49 @@ int main () {
     int belgiumdeffence = 88;
     int denmarkdeffence = 84;
     int columbiadeffence = 82;
+
+    //factor of unexpectancy
+    int fcroatia = rand() % 100;
+    int fbelgium = rand() % 100;
+    int fdenmark = rand() % 100;
+    int fcolumbia = rand() % 100;
+
+//currency in Euros
+double croatiacost = 355000000;
+double belgiumcost = 756000000;
+double denmarkcost = 262000000;
+double columbiacost = 256000000;
+
+//population
+double croatiapop = 4153818;
+double belgiumpop = 11527032;
+double denmarkpop = 5763620;
+double columbiapop = 49635457;
+
+//# of goals score in last 5 games
+int croatia5 = 6;
+int belgium5 = 10;
+int denmark5 = 6;
+int columbia5 = 10;
+
+//# of goals conceded in last 5 games
+int croatiaC5 = 11;
+int belgiumC5 = 7;
+int denmarkC5 = 1;
+int columbiaC5 = 5;
+
+//# of victories in last 5 games
+    int croatiaV5 = 2;
+    int belgiumV5 = 3;
+    int denmarkV5 = 3;
+    int columbiaV5 = 3;
+
+//# of defeats in last 5 games
+    int croatiaD5 = 2;
+    int belgiumD5 = 1;
+    int denmarkD5 = 0;
+    int columbiaD5 = 1;
+
     
     
     //group C (Chile, Sweden, Netherlands, Mexico)
@@ -107,6 +193,48 @@ int main () {
     int swedendeffence = 80;
     int netherlandsdeffence = 85;
     int mexicodeffence = 80;
+
+    //factor of unexpectancy
+    int fchile = rand() % 100;
+    int fsweden = rand() % 100;
+    int fnetherlands = rand() % 100;
+    int fmexico = rand() % 100;
+
+    //currency in euros
+    double chilecost = 125850000;
+    double swedencost = 24000000;
+    double netherlandscost = 511500000;
+    double mexicocost = 97900000;
+
+    //population
+    double chilepop = 18259411;
+    double swedenpop = 10014129;
+    double netherlandspop = 17106100;
+    double mexicopop = 131458115;
+
+    //# of goals scored in last 5 games
+    int chile5 = 7;
+    int sweden5 = 6;
+    int netherlands5 = 9;
+    int mexico5 = 3;
+
+    //# of goals condeded in the last 5 games
+    int chileC5 = 7;
+    int swedenC5 = 4;
+    int netherlandsC5 = 5;
+    int mexicoC5 = 8;
+
+    //# of victories in the last 5 games
+    int chileV5 = 2;
+    int swedenV5 = 2;
+    int netherlandsV5 = 2;
+    int mexico V5 = 1; 
+
+    //# of defeats in the last 5 games
+    int chileD5 = 2;
+    int swedenD5 = 1;
+    int netherlandsD5 = 1;
+    int mexicoD5 = 4;
     
     //group D (Wales, Poland, USA, Peru)
 
@@ -126,6 +254,42 @@ int main () {
     int polanddeffence = 79;
     int usadeffence = 80;
     int perudeffence = 78;
+
+    //cost
+    double walescost = 228200000;
+    double polandcost = 245400000;
+    double usacost = 90150000;
+    double perucost = 36980000;
+
+    //population
+    double walespop = 3188203;
+    double polandpop = 38070590;
+    double usapop = 327804709;
+    double perupop = 32722047;
+
+    //# of goals scored in last 5 games
+    int wales5 = 3;
+    int poland5 = 4;
+    int usa5 = 4;
+    int peru5 = 7;
+
+    //# of goals conceded in the last 5 games
+    int walesC5 = 9;
+    int polandC5 = 7;
+    int usaC5 = 9;
+    int peruC5 = 9;
+
+    //# of victories in the last 5 games
+    int walesV5 = 1;
+    int polandV5 = 0;
+    int usaV5 = 1;
+    int peruV5 = 1;
+
+    //# of defeats in the last 5 games
+    int walesD5 = 4;
+    int polandD5 = 3;
+    int usaD5 = 3;
+    int peruD5 = 3;
      
      //group E (Brazil, Germany, Senegal, Austria)
 
@@ -146,6 +310,42 @@ int main () {
      int senegaldeffence = 90;
      int austriadeffence = 75;
 
+     //cost
+     double brazilcost = 975000000;
+     double germanycost = 922000000;
+     double senegalcost = 237350000;
+     double austriacost = 206500000;
+
+     //population
+     double brazilpop = 211548264;
+     double germanypop = 82358331;
+     double senegalpop = 16493754;
+     double austriapop = 8758246;
+
+     //# of goals scored in the last 5 games
+     int brazil5 = 10;
+     int germany5 = 8;
+     int senegal5 = 7;
+     int austria = 3;
+
+     //# of goals conceded in the last 5 games
+     int brazilC5 = 0;
+     int germanyC5 = 8;
+     int senegalC5 = 3;
+     int austriaC5 = 4;
+
+     //# of victories in the last 5 games
+     int brazilV5 = 5;
+     int germanyV5 = 2;
+     int senegalV5 = 3;
+     int austriaV5 = 2;
+
+     //# of defeats in the last 5 games
+     int brazilD5 = 0;
+     int germanyD5 = 2;
+     int senegalD5 = 1;
+     int austriaD5 = 2;
+
      //group F (Romania, Iceland, England, Spain)
 
      int romania = 0, iceland = 0, england = 0, spain = 0;
@@ -164,6 +364,43 @@ int main () {
      int icelanddeffence = 79;
      int englanddeffence = 90;
      int spaindeffence = 95;
+
+     //cost
+     double romaniacost = 61950000;
+     double icelandcost = 39380000;
+     double englandcost = 979000000;
+     double spaincost = 107000000;
+
+     //population
+     double romaniapop = 19537084;
+     double icelandpop = 339023;
+     double englandpop = 53012456;
+     double spainpop = 46416939;
+
+     //# of goals scored in the last 5 games
+     int romania5 = 8;
+     int iceland5 = 5;
+     int england5 = 9;
+     int spain5 = 15;
+
+     //# of goals conceded in the last 5 games
+     int romaniaC5 = 3;
+     int icelandC5 = 11;
+     int englandC5 = 3;
+     int spainC5 = 7;
+
+     //# of victories in the last 5 games
+     int romaniaV5 = 3;
+     int icelandV5 = 0;
+     int englandV5 = 4;
+     int spainV5 = 3;
+
+     //# of defeats in the last 5 games
+     int romaniaD5 = 0;
+     int icelandD5 = 3;
+     int englandD5 = 0;
+     int spainD5 = 2;
+
 
      //group G (Argentina, France, Turkey, Russia) 
 
@@ -184,6 +421,42 @@ int main () {
      int turkeydeffence = 80;
      int russiadeffence = 70;
 
+     //cost
+     double argentinacost = 566500000;
+     double francecost = 103000000;
+     double turkeycost = 132000000;
+     double russiacost = 11100000;
+
+     //population
+     double argentinapop = 44873015;
+     double francepop = 65343789;
+     double turkeypop = 82382440;
+     double russiapop = 143933783;
+
+     //# of goals in the last 5 games
+     int argentina5 = 8;
+     int france5 = 7;
+     int turkey5 = 3;
+     int russia5 = 7;
+
+     //# of goals condeded in the last 5 games
+     int argentinaC5 = 1;
+     int franceC5 = 6;
+     int turkeyC5 = 4;
+     int russiaC5 = 6;
+
+     //# of victories in the last 5 games
+     int argentinaV5 = 3;
+     int franceV5 = 3;
+     int turkeyV5 = 1;
+     int russiaV5 = 2;
+
+     //# of defeats in the last 5 games
+     int argentinaD5 = 1;
+     int franceD5 = 1;
+     int turkeyD5 = 2;
+     int russiaD5 = 2; 
+
      //group H (Uruguay, Serbia, Venezuela, Morocco)
 
      int uruguay = 0, serbia = 0, venezuela = 0, morocco = 0;
@@ -202,6 +475,42 @@ int main () {
      int serbiadeffence = 80;
      int venezueladeffence = 80;
      int moroccodeffence = 75;
+
+     //cost
+     double uruguaycost = 32215000;
+     double serbiacost = 249250000;
+     double venezuelacost = 43700000;
+     double moroccocost = 164450000;
+
+     //population
+     double uruguaypop = 3475182;
+     double serbiapop = 8749218;
+     double venezuelapop = 8749218;
+     double moroccopop = 36389378;
+
+     //# of goals scored in the last 5 games
+     int uruguay5 = 7;
+     int serbia5 = 10;
+     int venezuela5 = 7;
+     int morocco5 = 8;
+
+     //# of goals conceded in the last 5 games
+     int uruguayC5 = 9;
+     int serbiaC5 = 4;
+     int venezuelaC5 = 4; 
+     int moroccoC5 = 2;
+
+     //# of victories in the last 5 games
+     int uruguayV5 = 1;
+     int serbiaV5 = 3;
+     int venezuelaV5 = 2;
+     int moroccoV5 = 4;
+
+     //# of defeats in the last 5 games
+     int uruguayD5 = 4;
+     int serbiaD5 = 0;
+     int venezuelaD5 = 1; 
+     int moroccoD5 = 0;
 
      //group H
 
@@ -479,33 +788,33 @@ int main () {
     //morocco
     if (morocco > uruguay && morocco > venezuela && morocco < serbia) {
         cout << "Morocco is the second of Group H" << endl;
-        Q2groupH = venezuela;
-        Q2groupHattack = venezuelaattack;
-        Q2groupHmidfield = venezuelamidfield;
-        Q2groupHdeffence = venezueladeffence;
-        FQ2groupH = "Venezuela";
-        FR1game1F = "Venezuela";
-        FR1game1T = "Venezuela";
+        Q2groupH = morocco;
+        Q2groupHattack = moroccoattack;
+        Q2groupHmidfield = moroccomidfield;
+        Q2groupHdeffence = moroccodeffence;
+        FQ2groupH = "Morocco";
+        FR1game1F = "Morocco";
+        FR1game1T = "Morocco";
     }
-    else if (venezuela > uruguay && venezuela < morocco && venezuela > serbia) {
-        cout << "Venezuela is the second of Group H" << endl;
-        Q2groupH = venezuela;
-        Q2groupHattack = venezuelaattack;
-        Q2groupHmidfield = venezuelamidfield;
-        Q2groupHdeffence = venezueladeffence;
-        FQ2groupH = "Venezuela";
-        FR1game1F = "Venezuela";
-        FR1game1T = "Venezuela";
+    else if (morocco > uruguay && morocco < venezuela && morocco > serbia) {
+        cout << "Morocco is the second of Group H" << endl;
+        Q2groupH = morocco;
+        Q2groupHattack = moroccoattack;
+        Q2groupHmidfield = moroccomidfield;
+        Q2groupHdeffence = moroccodeffence;
+        FQ2groupH = "Morocco";
+        FR1game1F = "Morocco";
+        FR1game1T = "Morocco";
     }
-    else if (venezuela < uruguay && venezuela < morocco && venezuela > serbia) {
-        cout << "Venezuela is the second of Group H" << endl;
-        Q2groupH = venezuela;
-        Q2groupHattack = venezuelaattack;
-        Q2groupHmidfield = venezuelamidfield;
-        Q2groupHdeffence = venezueladeffence;
-        FQ2groupH = "Venezuela";
-        FR1game1F = "Venezuela";
-        FR1game1T = "Venezuela";
+    else if (morocco < uruguay && morocco < venezuela && morocco > serbia) {
+        cout << "Morocco is the second of Group H" << endl;
+        Q2groupH = morocco;
+        Q2groupHattack = moroccoattack;
+        Q2groupHmidfield = moroccomidfield;
+        Q2groupHdeffence = moroccodeffence;
+        FQ2groupH = "Morocco";
+        FR1game1F = "Morocco";
+        FR1game1T = "Morocco";
     }
     else {}
 
@@ -680,6 +989,141 @@ int main () {
         FQ1groupG = "Turkey";
     }
 
+    //2nd place result of group G
+
+    //argentina
+    if (argentina > france && argentina > russia && argentina < turkey) {
+        cout << "Argentina is the second of Group G" << endl;
+        Q2groupG = argentina;
+        Q2groupGattack = argentinaattack;
+        Q2groupGmidfield = argentinamidfield;
+        Q2groupGdeffence = argentinadeffence;
+        FQ2groupG = "Argentina";
+        FR1game1F = "Argentina";
+        FR1game1T = "Argentina";
+    }
+    else if (argentina > france && argentina < russia && argentina > turkey) {
+        cout << "Argentina is the second of Group G" << endl;
+        Q2groupG = argentina;
+        Q2groupGattack = argentinaattack;
+        Q2groupGmidfield = argentinamidfield;
+        Q2groupGdeffence = argentinadeffence;
+        FQ2groupG = "Argentina";
+        FR1game1F = "Argentina";
+        FR1game1T = "Argentina";
+    }
+    else if (argentina < france && argentina < russia && argentina > turkey) {
+        cout << "Argentina is the second of Group G" << endl;
+        Q2groupG = argentina;
+        Q2groupGattack = argentinaattack;
+        Q2groupGmidfield = argentinamidfield;
+        Q2groupGdeffence = argentinadeffence;
+        FQ2groupG = "Argentina";
+        FR1game1F = "Argentina";
+        FR1game1T = "Argentina";
+    }
+    else {}
+
+
+    //france
+    if (france > argentina && france > russia && france < turkey) {
+        cout << "France is the second of Group G" << endl;
+        Q2groupG = france;
+        Q2groupGattack = franceattack;
+        Q2groupGmidfield = francemidfield;
+        Q2groupGdeffence = francedeffence;
+        FQ2groupG = "France";
+        FR1game1F = "France";
+        FR1game1T = "France";
+    }
+    else if (france > argentina && france < russia && france > turkey) {
+        cout << "France is the second of Group G" << endl;
+        Q2groupG = france;
+        Q2groupGattack = franceattack;
+        Q2groupGmidfield = francemidfield;
+        Q2groupGdeffence = francedeffence;
+        FQ2groupG = "France";
+        FR1game1F = "France";
+        FR1game1T = "France";
+    }
+    else if (france < argentina && france < russia && france > turkey) {
+        cout << "France is the second of Group G" << endl;
+        Q2groupG = france;
+        Q2groupGattack = franceattack;
+        Q2groupGmidfield = francemidfield;
+        Q2groupGdeffence = francedeffence;
+        FQ2groupG = "France";
+        FR1game1F = "France";
+        FR1game1T = "France";
+    }
+    else {}
+    
+    //russia
+    if (russia > argentina && russia > france && russia < turkey) {
+        cout << "Russia is the second of Group G" << endl;
+        Q2groupG = russia;
+        Q2groupGattack = russiaattack;
+        Q2groupGmidfield = russiamidfield;
+        Q2groupGdeffence = russiadeffence;
+        FQ2groupG = "Russia";
+        FR1game1F = "Russia";
+        FR1game1T = "Russia";
+    }
+    else if (russia > argentina && russia < france && russia > turkey) {
+        cout << "Russia is the second of Group G" << endl;
+        Q2groupG = russia;
+        Q2groupGattack = russiaattack;
+        Q2groupGmidfield = russiamidfield;
+        Q2groupGdeffence = russiadeffence;
+        FQ2groupG = "Russia";
+        FR1game1F = "Russia";
+        FR1game1T = "Russia";
+    }
+    else if (russia < argentina && russia < france && russia > turkey) {
+        cout << "Russia is the second of Group G" << endl;
+        Q2groupG = russia;
+        Q2groupGattack = russiaattack;
+        Q2groupGmidfield = russiamidfield;
+        Q2groupGdeffence = russiadeffence;
+        FQ2groupG = "Russia";
+        FR1game1F = "Russia";
+        FR1game1T = "Russia";
+    }
+    else {}
+
+    //turkey
+    if (turkey > argentina && turkey > france && turkey < russia) {
+        cout << "Turkey is the second of Group G" << endl;
+        Q2groupG = turkey;
+        Q2groupGattack = turkeyattack;
+        Q2groupGmidfield = turkeymidfield;
+        Q2groupGdeffence = turkeydeffence;
+        FQ2groupG = "Turkey";
+        FR1game1F = "Turkey";
+        FR1game1T = "Turkey";
+    }
+    else if (turkey > argentina && turkey < france && turkey > russia) {
+        cout << "Turkey is the second of Group G" << endl;
+        Q2groupG = turkey;
+        Q2groupGattack = turkeyattack;
+        Q2groupGmidfield = turkeymidfield;
+        Q2groupGdeffence = turkeydeffence;
+        FQ2groupG = "Turkey";
+        FR1game1F = "Turkey";
+        FR1game1T = "Turkey";
+    }
+    else if (turkey < argentina && turkey < france && turkey > russia) {
+        cout << "Turkey is the second of Group G" << endl;
+        Q2groupG = turkey;
+        Q2groupGattack = turkeyattack;
+        Q2groupGmidfield = turkeymidfield;
+        Q2groupGdeffence = turkeydeffence;
+        FQ2groupG = "Turkey";
+        FR1game1F = "Turkey";
+        FR1game1T = "Turkey";
+    }
+    else {}
+
 
      //group F
 
@@ -832,7 +1276,7 @@ int main () {
         Q1groupFdeffence = romaniadeffence;
         FQ1groupF = "Romania";
     }
-    else if (england > spain && england > romania&& england > iceland) {
+    else if (england > spain && england > romania && england > iceland) {
         cout << "England is the winner of Group F" << endl;
         Q1groupF = england;
         Q1groupFattack = englandattack;
@@ -848,6 +1292,141 @@ int main () {
         Q1groupFdeffence = icelanddeffence;
         FQ1groupF = "Iceland";
     }
+
+    //2nd place winner of group F
+
+    //Spain
+    if (spain > iceland && spain > england && spain < romania) {
+        cout << "Spain is the second of Group F" << endl;
+        Q2groupF = spain;
+        Q2groupFattack = spainattack;
+        Q2groupFmidfield = spainmidfield;
+        Q2groupFdeffence = spaindeffence;
+        FQ2groupF = "Spain";
+        FR1game1F = "Spain";
+        FR1game1T = "Spain";
+    }
+    else if (spain > iceland && spain < england && spain > romania) {
+        cout << "Spain is the second of Group F" << endl;
+        Q2groupF = spain;
+        Q2groupFattack = spainattack;
+        Q2groupFmidfield = spainmidfield;
+        Q2groupFdeffence = spaindeffence;
+        FQ2groupF = "Spain";
+        FR1game1F = "Spain";
+        FR1game1T = "Spain";
+    }
+    else if (spain < iceland && spain < england && spain > england) {
+        cout << "Spain is the second of Group F" << endl;
+        Q2groupF = spain;
+        Q2groupFattack = spainattack;
+        Q2groupFmidfield = spainmidfield;
+        Q2groupFdeffence = spaindeffence;
+        FQ2groupF = "Spain";
+        FR1game1F = "Spain";
+        FR1game1T = "Spain";
+    }
+    else {}
+
+    //Iceland
+    if (iceland > spain && iceland > england && iceland < romania) {
+        cout << "Iceland is the second of Group F" << endl;
+        Q2groupF = iceland;
+        Q2groupFattack = icelandattack;
+        Q2groupFmidfield = icelandmidfield;
+        Q2groupFdeffence = icelanddeffence;
+        FQ2groupF = "Iceland";
+        FR1game1F = "Iceland";
+        FR1game1T = "Iceland";
+    }
+    else if (iceland > spain && iceland < england && iceland > romania) {
+         cout << "Iceland is the second of Group F" << endl;
+        Q2groupF = iceland;
+        Q2groupFattack = icelandattack;
+        Q2groupFmidfield = icelandmidfield;
+        Q2groupFdeffence = icelanddeffence;
+        FQ2groupF = "Iceland";
+        FR1game1F = "Iceland";
+        FR1game1T = "Iceland";
+    }
+    else if (iceland < spain && iceland < england && iceland > romania) {
+         cout << "Iceland is the second of Group F" << endl;
+        Q2groupF = iceland;
+        Q2groupFattack = icelandattack;
+        Q2groupFmidfield = icelandmidfield;
+        Q2groupFdeffence = icelanddeffence;
+        FQ2groupF = "Iceland";
+        FR1game1F = "Iceland";
+        FR1game1T = "Iceland";
+    }
+    else {}
+
+    //England
+    if (england > spain && england > iceland && england < romania) {
+        cout << "England is the second of Group F" << endl;
+        Q2groupF = england;
+        Q2groupFattack = englandattack;
+        Q2groupFmidfield = englandmidfield;
+        Q2groupFdeffence = englanddeffence;
+        FQ2groupF = "England";
+        FR1game1F = "England";
+        FR1game1T = "England";
+    }
+    else if (england > spain && england < iceland && england > romania) {
+         cout << "England is the second of Group F" << endl;
+        Q2groupF = england;
+        Q2groupFattack = englandattack;
+        Q2groupFmidfield = englandmidfield;
+        Q2groupFdeffence = englanddeffence;
+        FQ2groupF = "England";
+        FR1game1F = "England";
+        FR1game1T = "England";
+    }
+    else if (england < spain && england < iceland && england > romania) {
+         cout << "England is the second of Group F" << endl;
+        Q2groupF = england;
+        Q2groupFattack = englandattack;
+        Q2groupFmidfield = englandmidfield;
+        Q2groupFdeffence = englanddeffence;
+        FQ2groupF = "England";
+        FR1game1F = "England";
+        FR1game1T = "England";
+    }
+    else {}
+
+    //romania
+    if (romania > spain && romania > iceland && romania < england) {
+        cout << "Romania is the second of Group F" << endl;
+        Q2groupF = romania;
+        Q2groupFattack = romaniaattack;
+        Q2groupFmidfield = romaniamidfield;
+        Q2groupFdeffence = romaniadeffence;
+        FQ2groupF = "Romania";
+        FR1game1F = "Romania";
+        FR1game1T = "Romania";
+    }
+    else if (romania > spain && romania < iceland && romania > england) {
+         cout << "Romania is the second of Group F" << endl;
+        Q2groupF = romania;
+        Q2groupFattack = romaniaattack;
+        Q2groupFmidfield = romaniamidfield;
+        Q2groupFdeffence = romaniadeffence;
+        FQ2groupF = "Romania";
+        FR1game1F = "Romania";
+        FR1game1T = "Romania";
+    }
+    else if (romania < spain && romania < iceland && romania > england) {
+         cout << "Romania is the second of Group F" << endl;
+        Q2groupF = romania;
+        Q2groupFattack = romaniaattack;
+        Q2groupFmidfield = romaniamidfield;
+        Q2groupFdeffence = romaniadeffence;
+        FQ2groupF = "Romania";
+        FR1game1F = "Romania";
+        FR1game1T = "Romania";
+    }
+    else {}
+
 
      //group E 
       
@@ -1000,7 +1579,7 @@ int main () {
         Q1groupEdeffence = germanydeffence;
         FQ1groupE = "Germany";
     }
-    else if (austria > germany && austria > germany && austria > senegal) {
+    else if (austria > brazil && austria > germany && austria > senegal) {
         cout << "Austria is the winner of Group E" << endl;
         Q1groupE = austria;
         Q1groupEattack = austriaattack;
@@ -1008,7 +1587,7 @@ int main () {
         Q1groupEdeffence = austriadeffence;
         FQ1groupE = "Austria";
     }
-    else if (senegal > germany && senegal > germany && senegal > austria) {
+    else if (senegal > germany && senegal > brazil && senegal > austria) {
         cout << "Senegal is the winner of Group E" << endl;
         Q1groupE = senegal;
         Q1groupEattack = senegalattack;
@@ -1018,9 +1597,144 @@ int main () {
     }
     else {}
 
-     //group D
+    //2nd place result of group E
     
-    //attack of wales
+    //Brazil
+
+    if (brazil > germany && brazil > senegal && brazil < austria) {
+        cout << "Brazil is the second of Group E" << endl;
+        Q2groupE = brazil;
+        Q2groupEattack = brazilattack;
+        Q2groupEmidfield = brazilmidfield;
+        Q2groupEdeffence = brazildeffence;
+        FQ2groupE = "Brazil";
+        FR1game1F = "Brazil";
+        FR1game1T = "Brazil";
+    }
+    else if (brazil > germany && brazil < senegal && brazil > austria) {
+        cout << "Brazil is the second of Group E" << endl;
+        Q2groupE = brazil;
+        Q2groupEattack = brazilattack;
+        Q2groupEmidfield = brazilmidfield;
+        Q2groupEdeffence = brazildeffence;
+        FQ2groupE = "Brazil";
+        FR1game1F = "Brazil";
+        FR1game1T = "Brazil";
+    }
+    else if (brazil < germany && brazil < senegal && brazil > austria) {
+        cout << "Brazil is the second of Group E" << endl;
+        Q2groupE = brazil;
+        Q2groupEattack = brazilattack;
+        Q2groupEmidfield = brazilmidfield;
+        Q2groupEdeffence = brazildeffence;
+        FQ2groupE = "Brazil";
+        FR1game1F = "Brazil";
+        FR1game1T = "Brazil";
+    }
+    else {}
+
+    //Germany
+    if (germany > brazil && germany > senegal && germany < austria) {
+        cout << "Germany is the second of Group E" << endl;
+        Q2groupE = germany;
+        Q2groupEattack = germanyattack;
+        Q2groupEmidfield = germanymidfield;
+        Q2groupEdeffence = germanydeffence;
+        FQ2groupE = "Germany";
+        FR1game1F = "Germany";
+        FR1game1T = "Germany";
+    }
+    else if (germany > brazil && germany < senegal && germany > austria) {
+         cout << "Germany is the second of Group E" << endl;
+        Q2groupE = germany;
+        Q2groupEattack = germanyattack;
+        Q2groupEmidfield = germanymidfield;
+        Q2groupEdeffence = germanydeffence;
+        FQ2groupE = "Germany";
+        FR1game1F = "Germany";
+        FR1game1T = "Germany";
+    }
+    else if (germany < brazil && germany < senegal && germany > austria) {
+         cout << "Germany is the second of Group E" << endl;
+        Q2groupE = germany;
+        Q2groupEattack = germanyattack;
+        Q2groupEmidfield = germanymidfield;
+        Q2groupEdeffence = germanydeffence;
+        FQ2groupE = "Germany";
+        FR1game1F = "Germany";
+        FR1game1T = "Germany";
+    }
+    else {}
+
+    //Senegal
+    if (senegal > brazil && senegal > germany && senegal < austria) {
+        cout << "Senegal is the second of Group E" << endl;
+        Q2groupE = senegal;
+        Q2groupEattack = senegalattack;
+        Q2groupEmidfield = senegalmidfield;
+        Q2groupEdeffence = senegaldeffence;
+        FQ2groupE = "Senegal";
+        FR1game1F = "Senegal";
+        FR1game1T = "Senegal";
+    }
+    else if (senegal > brazil && senegal < germany && senegal > austria) {
+         cout << "Senegal is the second of Group E" << endl;
+        Q2groupE = senegal;
+        Q2groupEattack = senegalattack;
+        Q2groupEmidfield = senegalmidfield;
+        Q2groupEdeffence = senegaldeffence;
+        FQ2groupE = "Senegal";
+        FR1game1F = "Senegal";
+        FR1game1T = "Senegal";
+    }
+    else if (senegal < brazil && senegal < germany && senegal > austria) {
+       cout << "Senegal is the second of Group E" << endl;
+        Q2groupE = senegal;
+        Q2groupEattack = senegalattack;
+        Q2groupEmidfield = senegalmidfield;
+        Q2groupEdeffence = senegaldeffence;
+        FQ2groupE = "Senegal";
+        FR1game1F = "Senegal";
+        FR1game1T = "Senegal";
+    }
+    else {}
+
+    //Austria
+    if (austria > brazil && austria > germany && austria < senegal) {
+        cout << "Austria is the second of Group E" << endl;
+        Q2groupE = austria;
+        Q2groupEattack = austriaattack;
+        Q2groupEmidfield = austrialmidfield;
+        Q2groupEdeffence = austriadeffence;
+        FQ2groupE = "Austria";
+        FR1game1F = "Austria";
+        FR1game1T = "Austria";
+    }
+    else if (austria > brazil && austria < germany && austria > senegal) {
+         cout << "Austria is the second of Group E" << endl;
+        Q2groupE = austria;
+        Q2groupEattack = austriaattack;
+        Q2groupEmidfield = austrialmidfield;
+        Q2groupEdeffence = austriadeffence;
+        FQ2groupE = "Austria";
+        FR1game1F = "Austria";
+        FR1game1T = "Austria";
+    }
+    else if (austria < brazil && austria < germany && austria > senegal) {
+       cout << "Austria is the second of Group E" << endl;
+        Q2groupE = austria;
+        Q2groupEattack = austriaattack;
+        Q2groupEmidfield = austrialmidfield;
+        Q2groupEdeffence = austriadeffence;
+        FQ2groupE = "Austria";
+        FR1game1F = "Austria";
+        FR1game1T = "Austria";
+    }
+    else {}
+
+     //group D
+
+     //attack of wales
     if (walesattack > polandattack) {
         wales += 1;
     }
@@ -1152,6 +1866,241 @@ int main () {
         peru += 1;
     }
 
+    //cost of poland
+    if (polandcost > walescost) {
+    poland += 1;
+}
+
+    if (polandcost > usacost) {
+    poland += 1;
+}
+
+if (polandcost > perucost) {
+    poland += 1;
+}
+
+//cost of peru
+if (perucost > walescost) {
+    peru += 1;
+}
+
+if (perucost > usacost) {
+    peru += 1;
+}
+
+if (perucost > polandcost) {
+    peru += 1;
+}
+
+//cost of usa
+if (usacost > polandcost) {
+    usa += 1;
+}
+
+if (usacost > perucost) {
+    usa += 1;
+}
+
+if (usacost > walescost) {
+    netherlands += 1;
+}
+
+//cost of wales
+if (walescost > polandcost) {
+    wales += 1;
+}
+
+if (walescost > usacost) {
+    wales += 1;
+}
+
+if (walescost > perucost) {
+    wales += 1;
+}
+
+//population of wales
+if (walespop > polandpop) {
+    wales += 1;
+}
+
+if (walespop > perupop) {
+    wales += 1;
+}
+
+if (walespop > usapop) {
+    wales += 1;
+}
+
+//population of poland
+if (polandpop > walespop) {
+    poland += 1;
+}
+
+if (polandpop > usapop) {
+    poland += 1;
+}
+
+if (polandpop > perupop) {
+    poland += 1;
+}
+
+//population of usa
+if (usapop > walespop) {
+    usa += 1;
+}
+
+if (usapop > perupop) {
+    usa += 1;
+}
+
+if (usapop > polandpop) {
+    usa += 1;
+}
+
+//population of peru
+if (perupop > walespop) {
+    peru += 1;
+}
+
+if (perupop > polandpop) {
+    peru += 1;
+}
+
+if (perupop > usapop) {
+    peru += 1;
+}
+
+//wales # of goals score in last 5 games
+if (wales5 > usa5) {
+    wales += 1;
+}
+
+if (wales5 > peru5) {
+    wales += 1;
+}
+
+if (wales5 > poland5) {
+    wales += 1;
+}
+
+//poland # of goals score in last 5 games
+if (poland5 > peru5) {
+    poland += 1;
+}
+
+if (poland5 > usa5) {
+    poland += 1;
+}
+
+if (poland5 > wales5) {
+    poland += 1;
+}
+
+//usa # of goals score in last 5 games
+if (usa5 > poland5) {
+    usa += 1;
+}
+
+if (usa5 > peru5) {
+    usa += 1;
+}
+
+if (usa5 > wales5) {
+    usa += 1;
+}
+
+//peru # of goals score in last 5 games
+if (peru5 > usa5) {
+    peru += 1;
+}
+
+if (peru5 > poland5) {
+    peru += 1;
+}
+
+if (peru5 > wales5) {
+    peru += 1;
+}
+
+//wales # of goals conceded in last 5 games
+if (walesC5 > polandC5) {
+    wales -= 1;
+}
+
+if (walesC5 > peruC5) {
+    wales -= 1;
+}
+
+if (walesC5 > usaC5) {
+    wales -= 1;
+}
+
+//usa # of goals conceded in last 5 games
+if (usaC5 > walesC5) {
+    usa -= 1;
+}
+
+if (usaC5 > polandC5) {
+    usa -= 1;
+}
+
+if (usaC5 > peruC5) {
+    usa -= 1;
+}
+
+//poland # of goals conceded in last 5 games
+if (polandC5 > peruC5) {
+    poland -= 1;
+}
+
+if (polandC5 > walesC5) {
+    poland -= 1;
+}
+
+if (polandC5 > usaC5) {
+    poland -= 1;
+}
+
+//peru # of goals conceded in last 5 games
+if (peruC5 > polandC5) {
+    peru -= 1;
+}
+
+if (peruC5 > usaC5) {
+    peru -= 1;
+}
+
+if (peruC5 > walesC5) {
+    peru -= 1;
+}
+
+//wales # of goals victory in last 5 games
+if (walesV5 > polandV5) {
+    wales += 1;
+}
+
+if (walesV5 > peruV5) {
+    wales += 1;
+}
+
+if (walesV5 > usaV5) {
+    wales += 1;
+}
+
+//usa # of goals victory in last 5 games
+if (usaV5 > polandV5) {
+    usa += 1;
+}
+
+if (usaV5 > peruV5) {
+    usa += 1;
+}
+
+if (usaV5 > wales5) {
+    usa += 1;
+}
+
+
     //1st place results of group D
      if (peru > wales && peru > usa && peru > poland) {
         cout << "Peru is the winner of Group D" << endl;
@@ -1186,6 +2135,144 @@ int main () {
         FQ1groupD = "poland";
     }
     else {}
+
+    //2nd place results of group D
+    ////////////////////////////////
+    
+    //peru 
+
+    if (peru > wales && peru > usa && peru < poland) {
+        cout << "Peru is the second of Group D" << endl;
+        Q2groupD = peru;
+        Q2groupDattack = peruattack;
+        Q2groupDmidfield = perumidfield;
+        Q2groupDdeffence = perudeffence;
+        FQ2groupD = "Peru";
+        FR1game1F = "Peru";
+        FR1game1T = "Peru";
+    }
+    else if (peru > wales && peru < usa && peru > poland) {
+         cout << "Peru is the second of Group D" << endl;
+        Q2groupD = peru;
+        Q2groupDattack = peruattack;
+        Q2groupDmidfield = perumidfield;
+        Q2groupDdeffence = perudeffence;
+        FQ2groupD = "Peru";
+        FR1game1F = "Peru";
+        FR1game1T = "Peru";
+    }
+    else if (peru < wales && peru < usa && peru > poland) {
+       cout << "Peru is the second of Group D" << endl;
+        Q2groupD = peru;
+        Q2groupDattack = peruattack;
+        Q2groupDmidfield = perumidfield;
+        Q2groupDdeffence = perudeffence;
+        FQ2groupD = "Peru";
+        FR1game1F = "Peru";
+        FR1game1T = "Peru";
+    }
+    else {}
+
+    //wales
+    if (wales > peru && wales > usa && wales < poland) {
+        cout << "Wales is the second of Group D" << endl;
+        Q2groupD = wales;
+        Q2groupDattack = walesattack;
+        Q2groupDmidfield = walesmidfield;
+        Q2groupDdeffence = walesdeffence;
+        FQ2groupD = "Wales";
+        FR1game1F = "Wales";
+        FR1game1T = "Wales";
+    }
+    else if (wales > peru && wales < usa && wales > poland) {
+         cout << "Wales is the second of Group D" << endl;
+        Q2groupD = wales;
+        Q2groupDattack = walesattack;
+        Q2groupDmidfield = walesmidfield;
+        Q2groupDdeffence = walesdeffence;
+        FQ2groupD = "Wales";
+        FR1game1F = "Wales";
+        FR1game1T = "Wales";
+    }
+    else if (wales < peru && wales < usa && wales > poland) {
+       cout << "Wales is the second of Group D" << endl;
+        Q2groupD = wales;
+        Q2groupDattack = walesattack;
+        Q2groupDmidfield = walesmidfield;
+        Q2groupDdeffence = walesdeffence;
+        FQ2groupD = "Wales";
+        FR1game1F = "Wales";
+        FR1game1T = "Wales";
+    }
+    else {}
+
+    //usa
+    if (usa > peru && usa > wales && usa < poland) {
+        cout << "USA is the second of Group D" << endl;
+        Q2groupD = usa;
+        Q2groupDattack = usaattack;
+        Q2groupDmidfield = usamidfield;
+        Q2groupDdeffence = usadeffence;
+        FQ2groupD = "USA";
+        FR1game1F = "USA";
+        FR1game1T = "USA";
+    }
+    else if (usa > peru && usa < wales && usa > poland) {
+         cout << "USA is the second of Group D" << endl;
+        Q2groupD = usa;
+        Q2groupDattack = usaattack;
+        Q2groupDmidfield = usamidfield;
+        Q2groupDdeffence = usadeffence;
+        FQ2groupD = "USA";
+        FR1game1F = "USA";
+        FR1game1T = "USA";
+    }
+    else if (usa < peru && usa < wales && usa > poland) {
+       cout << "USA is the second of Group D" << endl;
+        Q2groupD = usa;
+        Q2groupDattack = usaattack;
+        Q2groupDmidfield = usamidfield;
+        Q2groupDdeffence = usadeffence;
+        FQ2groupD = "USA";
+        FR1game1F = "USA";
+        FR1game1T = "USA";
+    }
+    else {}
+
+    //poland
+    if (poland > peru && poland > wales && poland < usa) {
+        cout << "Poland is the second of Group D" << endl;
+        Q2groupD = poland;
+        Q2groupDattack = polandattack;
+        Q2groupDmidfield = polandmidfield;
+        Q2groupDdeffence = polanddeffence;
+        FQ2groupD = "Poland";
+        FR1game1F = "Poland";
+        FR1game1T = "Poland";
+    }
+    else if (poland > peru && poland < wales && poland > usa) {
+         cout << "Poland is the second of Group D" << endl;
+        Q2groupD = poland;
+        Q2groupDattack = polandattack;
+        Q2groupDmidfield = polandmidfield;
+        Q2groupDdeffence = polanddeffence;
+        FQ2groupD = "Poland";
+        FR1game1F = "Poland";
+        FR1game1T = "Poland";
+    }
+    else if (poland < peru && poland < wales && poland > usa) {
+       cout << "Poland is the second of Group D" << endl;
+        Q2groupD = poland;
+        Q2groupDattack = polandattack;
+        Q2groupDmidfield = polandmidfield;
+        Q2groupDdeffence = polanddeffence;
+        FQ2groupD = "Poland";
+        FR1game1F = "Poland";
+        FR1game1T = "Poland";
+    }
+    else {}
+
+
 
     //group C
     
@@ -1332,6 +2419,372 @@ int main () {
          mexico += 1;
      }
 
+     //cost of mexico
+    if (mexicocost > chilecost) {
+    mexico += 1;
+}
+
+    if (mexicocost > swedencost) {
+    mexico += 1;
+}
+
+if (mexicocost > netherlandscost) {
+    mexico += 1;
+}
+
+//cost of chile
+if (chilecost > mexicocost) {
+    chile += 1;
+}
+
+if (chilecost > swedencost) {
+    chile += 1;
+}
+
+if (chilecost > netherlandscost) {
+    chile += 1;
+}
+
+//cost of netherlands
+if (netherlandscost > mexicocost) {
+    netherlands += 1;
+}
+
+if (netherlandscost > swedencost) {
+    netherlands += 1;
+}
+
+if (netherlandscost > chilecost) {
+    netherlands += 1;
+}
+
+//cost of sweden
+if (swedencost > chilecost) {
+    sweden += 1;
+}
+
+if (swedencost > netherlandscost) {
+    sweden += 1;
+}
+
+if (swedencost > mexicocost) {
+    sweden += 1;
+}
+
+//population of chile
+if (chilepop > netherlandspop) {
+    chile += 1;
+}
+
+if (chilepop > mexicopop) {
+    chile += 1;
+}
+
+if (chilepop > swedenpop) {
+    chile += 1;
+}
+
+//population of mexico
+if (mexicopop > chilepop) {
+    mexico += 1;
+}
+
+if (mexicopop > netherlandspop) {
+    mexico += 1;
+}
+
+if (mexicopop > swedenpop) {
+    mexico += 1;
+}
+
+//population of sweden
+if (swedenpop > chilepop) {
+    sweden += 1;
+}
+
+if (swedenpop > netherlandspop) {
+    sweden += 1;
+}
+
+if (swedenpop > mexicopop) {
+    sweden += 1;
+}
+
+//population of netherlands
+if (netherlandspop > chilepop) {
+    netherlands+ = 1;
+}
+
+if (netherlandspop > swedenpop) {
+    inetherlands += 1;
+}
+
+if (netherlandspop > mexicopop) {
+    netherlands += 1;
+}
+
+//chile # of goals score in last 5 games
+if (chile5 > sweden5) {
+    chile += 1;
+}
+
+if (chile5 > netherlands5) {
+    chile += 1;
+}
+
+if (chile5 > mexico5) {
+    chile += 1;
+}
+
+//netherlands # of goals score in last 5 games
+if (netherlands5 > chile5) {
+    netherlands += 1;
+}
+
+if (netherlands5 > sweden5) {
+    netherlands += 1;
+}
+
+if (netherlands5 > mexico5) {
+    netherlands += 1;
+}
+
+//sweden # of goals score in last 5 games
+if (sweden5 > netherlands5) {
+    sweden += 1;
+}
+
+if (sweden5 > chile5) {
+    sweden += 1;
+}
+
+if (sweden5 > mexico5) {
+    sweden += 1;
+}
+
+//mexico # of goals score in last 5 games
+if (mexico5 > chile5) {
+    mexico += 1;
+}
+
+if (mexico5 > sweden5) {
+    mexico += 1;
+}
+
+if (mexico5 > netherlands5) {
+    mexico += 1;
+}
+
+//chile # of goals conceded in last 5 games
+if (chileC5 > mexicoC5) {
+    chile -= 1;
+}
+
+if (chileC5 > netherlandsC5) {
+    chile -= 1;
+}
+
+if (chileC5 > swedenC5) {
+    chile -= 1;
+}
+
+//sweden # of goals conceded in last 5 games
+if (swedenC5 > chileC5) {
+    sweden -= 1;
+}
+
+if (swedenC5 > netherlandsC5) {
+    sweden -= 1;
+}
+
+if (swedenC5 > mexicoC5) {
+    sweden -= 1;
+}
+
+//netherlands # of goals conceded in last 5 games
+if (netherlandsC5 > chileC5) {
+    portugal -= 1;
+}
+
+if (netherlandsC5 > swedenC5) {
+    netherlands -= 1;
+}
+
+if (netherlandsC5 > mexicoC5) {
+    netherlands -= 1;
+}
+
+//mexico # of goals conceded in last 5 games
+if (mexicoC5 > chileC5) {
+    mexico -= 1;
+}
+
+if (mexicoC5 > swedenC5) {
+    mexico -= 1;
+}
+
+if (mexicoC5 > netherlandsC5) {
+    mexico -= 1;
+}
+
+//chile # of goals victory in last 5 games
+if (chileV5 > netherlandsV5) {
+    chile += 1;
+}
+
+if (chileV5 > swedenV5) {
+    chile += 1;
+}
+
+if (chileV5 > mexicoV5) {
+    chile += 1;
+}
+
+//sweden # of goals victory in last 5 games
+if (swedenV5 > netherlandsV5) {
+    sweden += 1;
+}
+
+if (swedenV5 > chileV5) {
+    sweden += 1;
+}
+
+if (swedenV5 > mexicoV5) {
+    sweden += 1;
+}
+
+//netherlands # of goals victory in last 5 games
+if (netherlandsV5 > chileV5) {
+    netherlands += 1;
+}
+
+if (netherlandsV5 > mexicoV5) {
+    netherlands += 1;
+}
+
+if (netherlandsV5 > swedenV5) {
+    netherlands += 1;
+}
+
+//mexico # of goals victory in last 5 games
+if (mexicoV5 > chileV5) {
+    mexico += 1;
+}
+
+if (mexicoV5 > netherlandsV5) {
+    mexico += 1;
+}
+
+if (mexicoV5 > swedenV5) {
+    mexico += 1;
+}
+
+//chile # of defeats in last 5 games
+if (chileD5 > mexicoD5) {
+    chile -= 1;
+}
+
+if (chileD5 > netherlandsD5) {
+    chile -= 1;
+}
+
+if (chileD5 > swedenD5) {
+    chile -= 1;
+}
+
+//netherlands # of defeats in last 5 games
+if (netherlandsD5 > chileD5) {
+    netherlands -= 1;
+}
+
+if (netherlandsD5 > mexicoD5) {
+    netherlands -= 1;
+}
+
+if (netherlandsD5 > swedenD5) {
+    netherlands -= 1;
+}
+
+//mexico # of defeats in last 5 games
+if (mexicoD5 > chileD5) {
+    mexico -= 1;
+}
+
+if (mexicoD5 > swedenD5) {
+    mexico -= 1;
+}
+
+if (mexicoD5 > netherlandsD5) {
+    mexico -= 1;
+}
+
+//sweden # of defeats in last 5 games
+if (swedenD5 > chileD5) {
+    sweden -= 1;
+}
+
+if (swedenD5 > mexicoD5) {
+    sweden -= 1;
+}
+
+if (swedenD5 > netherlandsD5) {
+    sweden -= 1;
+}
+
+//chile factor of unexpectancy
+if (fchile > fsweden) {
+    chile += 4;
+}
+
+if (fchile > fnetherlands) {
+    chile += 4;
+}
+
+if (fchile > fmexico) {
+    chile += 4;
+}
+
+//sweden factor of unexpectancy
+if (fsweden > fchile) {
+    sweden += 4;
+}
+
+if (fsweden > fnetherlands) {
+    sweden += 4;
+}
+
+if (fsweden > fmexico) {
+    sweden += 4;
+}
+
+//netherlands factor of unexpectancy
+if (fnetherlands > fchile) {
+    netherlands += 4;
+}
+
+if (fnetherlands > fmexico) {
+    netherlands += 4;
+}
+
+if (fnetherlands > fsweden) {
+    netherlands += 4;
+}
+
+//mexico factor of unexpectancy
+if (fmexico > fchile) {
+    mexico += 4;
+}
+
+if (fmexico > fnetherlands) {
+    mexico += 4;
+}
+
+if (fmexico > fsweden) {
+    mexico += 4;
+}
+
+
+
      //first place results of group C
      if (chile > netherlands && chile > sweden && chile > mexico) {
         cout << "Chile is the winner of Group C" << endl;
@@ -1370,6 +2823,145 @@ int main () {
         
     }
     else {}
+
+    //2nd place result of group C
+
+    //mexico
+    if (mexico > chile && mexico > sweden && mexico < netherlands) {
+        cout << "Mexico is the second of Group C" << endl;
+        Q2groupC = mexico;
+        Q2groupCattack = mexicoattack;
+        Q2groupCmidfield = mexicomidfield;
+        Q2groupCdeffence = mexicodeffence;
+        FQ2groupC = "Mexico";
+        FR1game1F = "Mexico";
+        FR1game1T = "Mexico";
+    }
+    else if (mexico > chile && mexico < sweden && mexico > netherlands) {
+         cout << "Mexico is the second of Group C" << endl;
+        Q2groupC = mexico;
+        Q2groupCattack = mexicoattack;
+        Q2groupCmidfield = mexicomidfield;
+        Q2groupCdeffence = mexicodeffence;
+        FQ2groupC = "Mexico";
+        FR1game1F = "Mexico";
+        FR1game1T = "Mexico";
+    }
+    else if (mexico < chile && mexico < sweden && mexico > netherlands) {
+       cout << "Mexico is the second of Group C" << endl;
+        Q2groupC = mexico;
+        Q2groupCattack = mexicoattack;
+        Q2groupCmidfield = mexicomidfield;
+        Q2groupCdeffence = mexicodeffence;
+        FQ2groupC = "Mexico";
+        FR1game1F = "Mexico";
+        FR1game1T = "Mexico";
+    }
+    else {}
+
+    //chile
+    if (chile > mexico && chile > sweden && chile < netherlands) {
+        cout << "Chile is the second of Group C" << endl;
+        Q2groupC = chile;
+        Q2groupCattack = chileattack;
+        Q2groupCmidfield = chilemidfield;
+        Q2groupCdeffence = chiledeffence;
+        FQ2groupC = "Chile";
+        FR1game1F = "Chile";
+        FR1game1T = "Chile";
+    }
+    else if (chile > mexico && chile < sweden && chile > netherlands) {
+         cout << "Chile is the second of Group C" << endl;
+        Q2groupC = chile;
+        Q2groupCattack = chileattack;
+        Q2groupCmidfield = chilemidfield;
+        Q2groupCdeffence = chiledeffence;
+        FQ2groupC = "Chile";
+        FR1game1F = "Chile";
+        FR1game1T = "Chile";
+    }
+    else if (chile < mexico && mexico < sweden && mexico > netherlands) {
+       cout << "Chile is the second of Group C" << endl;
+        Q2groupC = chile;
+        Q2groupCattack = chileattack;
+        Q2groupCmidfield = chilemidfield;
+        Q2groupCdeffence = chiledeffence;
+        FQ2groupC = "Chile";
+        FR1game1F = "Chile";
+        FR1game1T = "Chile";
+    }
+    else {}
+
+    //sweden
+
+    if (sweden > mexico && sweden > chile && sweden < netherlands) {
+        cout << "Sweden is the second of Group C" << endl;
+        Q2groupC = sweden;
+        Q2groupCattack = swedenattack;
+        Q2groupCmidfield = swedenmidfield;
+        Q2groupCdeffence = swedendeffence;
+        FQ2groupC = "Sweden";
+        FR1game1F = "Sweden";
+        FR1game1T = "Sweden";
+    }
+    else if (sweden > mexico && sweden < chile && sweden > netherlands) {
+         cout << "Sweden is the second of Group C" << endl;
+        Q2groupC = sweden;
+        Q2groupCattack = swedenattack;
+        Q2groupCmidfield = swedenmidfield;
+        Q2groupCdeffence = swedendeffence;
+        FQ2groupC = "Sweden";
+        FR1game1F = "Sweden";
+        FR1game1T = "Sweden";
+    }
+    else if (sweden < mexico && sweden < mexico && sweden > netherlands) {
+       cout << "Sweden is the second of Group C" << endl;
+        Q2groupC = sweden;
+        Q2groupCattack = swedenattack;
+        Q2groupCmidfield = swedenmidfield;
+        Q2groupCdeffence = swedendeffence;
+        FQ2groupC = "Sweden";
+        FR1game1F = "Sweden";
+        FR1game1T = "Sweden";
+    }
+    else {} 
+
+    //netherlands
+
+    if (netherlands > mexico && netherlands > chile && netherlands < sweden) {
+        cout << "Netherlands is the second of Group C" << endl;
+        Q2groupC = netherlands;
+        Q2groupCattack = netherlandsattack;
+        Q2groupCmidfield = netherlandsmidfield;
+        Q2groupCdeffence = netherlandsdeffence;
+        FQ2groupC = "Netherlands";
+        FR1game1F = "Netherlands";
+        FR1game1T = "Netherlands";
+    }
+    else if (netherlands > mexico && netherlands < chile && netherlands > sweden) {
+         cout << "Netherlands is the second of Group C" << endl;
+        Q2groupC = netherlands;
+        Q2groupCattack = netherlandsattack;
+        Q2groupCmidfield = netherlandsmidfield;
+        Q2groupCdeffence = netherlandsdeffence;
+        FQ2groupC = "Netherlands";
+        FR1game1F = "Netherlands";
+        FR1game1T = "Netherlands";
+    }
+    else if (netherlands < mexico && netherlands < mexico && netherlands > sweden) {
+       cout << "Netherlands is the second of Group C" << endl;
+        Q2groupC = netherlands;
+        Q2groupCattack = netherlandsattack;
+        Q2groupCmidfield = netherlandsmidfield;
+        Q2groupCdeffence = netherlandsdeffence;
+        FQ2groupC = "Netherlands";
+        FR1game1F = "Netherlands";
+        FR1game1T = "Netherlands";
+    }
+    else {} 
+ 
+
+
      
     //group B
 
@@ -1529,6 +3121,372 @@ int main () {
         columbia += 1;
     }
 
+    //cost of croatia
+if (croatiacost > belgiumcost) {
+    croatia += 1;
+}
+
+if (croatiacost > denmarkcost) {
+    croatia += 1;
+}
+
+if (croatiacost > columbiacost) {
+    croatia += 1;
+}
+
+//cost of belgium
+if (belgiumcost > croatiacost) {
+    belgium += 1;
+}
+
+if (belgiumcost > denmarkcost) {
+    belgium += 1;
+}
+
+if (belgiumcost > columbiacost) {
+    belgium += 1;
+}
+
+//cost of denmark
+if (denmarkcost > croatiacost) {
+    denmark += 1;
+}
+
+if (denmarkcost > belgiumcost) {
+    denmark += 1;
+}
+
+if (denmarkcost > columbiacost) {
+    denmark += 1;
+}
+
+//cost of columbia
+if (columbiacost > croatiacost) {
+    columbia += 1;
+}
+
+if (columbiacost > belgiumcost) {
+    columbia += 1;
+}
+
+if (columbiacost > denmarkcost) {
+    columbia += 1;
+}
+
+//population of columbia
+if (columbiapop > denmarkpop) {
+    columbia += 1;
+}
+
+if (columbiapop > belgiumpop) {
+    columbia += 1;
+}
+
+if (columbiapop > croatiapop) {
+    columbia += 1;
+}
+
+//population of denmark
+if (denmarkpop > columbiapop) {
+    denmark += 1;
+}
+
+if (denmarkpop > belgiumpop) {
+    denmark += 1;
+}
+
+if (denmarkpop > croatiapop) {
+    denmark += 1;
+}
+
+//population of belgium
+if (belgiumpop > columbiapop) {
+    belgium += 1;
+}
+
+if (belgiumpop > denmarkpop) {
+    belgium += 1;
+}
+
+if (belgiumpop > croatiapop) {
+    belgium += 1;
+}
+
+//population of croatia
+if (croatiapop > columbiapop) {
+    croatia += 1;
+}
+
+if (croatiapop > denmarkpop) {
+    croatia += 1;
+}
+
+if (croatiapop > belgiumpop) {
+    croatia += 1;
+}
+
+
+
+//croatia # of goals score in last 5 games
+if (croatia5 > belgium5) {
+    croatia += 1;
+}
+
+if (croatia5 > denmark5) {
+    croatia += 1;
+}
+
+if (croatia5 > columbia5) {
+    croatia += 1;
+}
+
+//belgium # of goals score in last 5 games
+if (belgium5 > croatia5) {
+    belgium += 1;
+}
+
+if (belgium5 > denmark5) {
+    belgium += 1;
+}
+
+if (belgium5 > columbia5) {
+    belgium += 1;
+}
+
+//denmark # of goals score in last 5 games
+if (denmark5 > croatia5) {
+    denmark += 1;
+}
+
+if (denmark5 > belgium5) {
+    denmark += 1;
+}
+
+if (denmark5 > columbia5) {
+    denmark += 1;
+}
+
+//columbia # of goals score in last 5 games
+if (columbia5 > croatia5) {
+    columbia += 1;
+}
+
+if (columbia5 > belgium5) {
+    columbia += 1;
+}
+
+if (columbia5 > denmark5) {
+    columbia += 1;
+}
+
+//columbia # of goals conceded in last 5 games
+if (columbiaC5 > denmarkC5) {
+    columbia -= 1;
+}
+
+if (columbiaC5 > belgiumC5) {
+    columbia -= 1;
+}
+
+if (columbiaC5 > croatiaC5) {
+    columbia -= 1;
+}
+
+//denmark # of goals conceded in last 5 games
+if (denmarkC5 > columbiaC5) {
+    denmark -= 1;
+}
+
+if (denmarkC5 > belgiumC5) {
+    denmark -= 1;
+}
+
+if (denmarkC5 > croatiaC5) {
+    denmark -= 1;
+}
+
+//belgium # of goals conceded in last 5 games
+if (belgiumC5 > columbiaC5) {
+    belgium -= 1;
+}
+
+if (belgiumC5 > denmarkC5) {
+    belgium -= 1;
+}
+
+if (belgiumC5 > croatiaC5) {
+    belgium -= 1;
+}
+
+//croatia # of goals conceded in last 5 games
+if (croatiaC5 > columbiaC5) {
+    croatia -= 1;
+}
+
+if (croatiaC5 > denmarkC5) {
+    croatia -= 1;
+}
+
+if (croatiaC5 > belgiumC5) {
+    croatia -= 1;
+}
+
+//croatia # of victories in last 5 games
+if (croatiaV5 > belgiumV5) {
+    croatia += 1;
+}
+
+if (croatiaV5 > denmarkV5) {
+    croatia += 1;
+}
+
+if (croatiaV5 > columbiaV5) {
+    croatia += 1;
+}
+
+//belgium # of victories in last 5 games
+if (belgiumV5 > croatiaV5) {
+    belgium += 1;
+}
+
+if (belgiumV5 > denmarkV5) {
+    belgium += 1;
+}
+
+if (belgiumV5 > columbiaV5) {
+    belgium += 1;
+}
+
+//denmark # of victories in last 5 games
+if (denmarkV5 > croatiaV5) {
+    denmark += 1;
+}
+
+if (denmarkV5 > belgiumV5) {
+    denmark += 1;
+}
+
+if (denmarkV5 > columbiaV5) {
+    denmark += 1;
+}
+
+//columbia # of victories in last 5 games
+if (columbiaV5 > croatiaV5) {
+    columbia += 1;
+}
+
+if (columbiaV5 > belgiumV5) {
+    columbia += 1;
+}
+
+if (columbiaV5 > denmarkV5) {
+    columbia += 1;
+}
+
+//columbia # of defeats in last 5 games
+if (columbiaD5 > denmarkD5) {
+    columbia -= 1;
+}
+
+if (columbiaD5 > belgiumD5) {
+    columbia -= 1;
+}
+
+if (columbiaD5 > croatiaD5) {
+    columbia -= 1;
+}
+
+//denmark # of defeats in last 5 games
+if (denmarkD5 > columbiaD5) {
+    denmark -= 1;
+}
+
+if (denmarkD5 > belgiumD5) {
+    denmark -= 1;
+}
+
+if (denmarkD5 > croatiaD5) {
+    denmark -= 1;
+}
+
+//belgium # of defeats in last 5 games
+if (belgiumD5 > columbiaD5) {
+    belgium -= 1;
+}
+
+if (belgiumD5 > denmarkD5) {
+    belgium -= 1;
+}
+
+if (belgiumD5 > croatiaD5) {
+    belgium -= 1;
+}
+
+//croatia # of defeats in last 5 games
+if (croatiaD5 > columbiaD5) {
+    croatia -= 1;
+}
+
+if (croatiaD5 > denmarkD5) {
+    croatia -= 1;
+}
+
+if (croatiaD5 > belgiumD5) {
+    croatia -= 1;
+}
+
+//croatia factor of unexpectancy
+if (fcroatia > fbelgium) {
+    croatia += 4;
+}
+
+if (fcroatia > fdenmark) {
+    croatia += 4;
+}
+
+if (fcroatia > fcolumbia) {
+    croatia += 4;
+}
+
+//belgium factor of unexpectancy
+if (fbelgium > fcroatia) {
+    belgium += 4;
+}
+
+if (fbelgium > fdenmark) {
+    belgium += 4;
+}
+
+if (fbelgium > fcolumbia) {
+    belgium += 4;
+}
+
+//denmark factor of unexpectancy
+if (fdenmark > fcroatia) {
+    denmark += 4;
+}
+
+if (fdenmark > fbelgium) {
+    denmark += 4;
+}
+
+if (fdenmark > fcolumbia) {
+    denmark += 4;
+}
+
+//columbia factor of unexpectancy
+if (fcolumbia > fcroatia) {
+    columbia += 4;
+}
+
+if (fcolumbia > fbelgium) {
+    columbia += 4;
+}
+
+if (fcolumbia > fdenmark) {
+    columbia += 4;
+}
+
     //1st place results of group B
     if (columbia > denmark && columbia > croatia && columbia > belgium) {
         cout << "Columbia is the winner of Group B" << endl;
@@ -1572,7 +3530,7 @@ int main () {
 
     else {}
 
-    //2nd place results
+    //2nd place results of group B
    
     //Columbia
     if (columbia > denmark && columbia > croatia && columbia < belgium) {
@@ -1880,6 +3838,375 @@ int main () {
         iran += 1;
     }
 
+    //cost of italy
+if (italycost > portugalcost) {
+    italy += 1;
+}
+
+if (italycost > australiacost) {
+    italy += 1;
+}
+
+if (italycost > irancost) {
+    italy += 1;
+}
+
+//cost of portugal
+if (portugalcost > italycost) {
+    portugal += 1;
+}
+
+if (portugalcost > australiacost) {
+    portugal += 1;
+}
+
+if (portugalcost > irancost) {
+    portugal += 1;
+}
+
+//cost of australia
+if (australiacost > italycost) {
+    australia += 1;
+}
+
+if (australiacost > portugalcost) {
+    australia += 1;
+}
+
+if (australiacost > irancost) {
+    australia += 1;
+}
+
+//cost of iran
+if (irancost > italycost) {
+    iran += 1;
+}
+
+if (irancost > portugalcost) {
+    iran += 1;
+}
+
+if (irancost > australiacost) {
+    iran += 1;
+}
+
+//population of iran
+if (iranpop > australiapop) {
+    iran += 1;
+}
+
+if (iranpop > portugalpop) {
+    iran += 1;
+}
+
+if (iranpop > italypop) {
+    iran += 1;
+}
+
+//population of australia
+if (australiapop > iranpop) {
+    australia += 1;
+}
+
+if (australiapop > portugalpop) {
+    australia += 1;
+}
+
+if (australiapop > italypop) {
+    australia += 1;
+}
+
+//population of portugal
+if (portugalpop > iranpop) {
+    portugal += 1;
+}
+
+if (portugalpop > australiapop) {
+    portugal += 1;
+}
+
+if (portugalpop > italypop) {
+    portugal += 1;
+}
+
+//population of italy
+if (italypop > iranpop) {
+    italy += 1;
+}
+
+if (italypop > australiapop) {
+    italy += 1;
+}
+
+if (italypop > portugalpop) {
+    italy += 1;
+}
+
+
+
+//italy # of goals score in last 5 games
+if (italy5 > portugal5) {
+    italy += 1;
+}
+
+if (italy5 > australia5) {
+    italy += 1;
+}
+
+if (italy5 > iran5) {
+    italy += 1;
+}
+
+//portugal # of goals score in last 5 games
+if (portugal5 > italy5) {
+    portugal += 1;
+}
+
+if (portugal5 > australia5) {
+    portugal += 1;
+}
+
+if (portugal5 > iran5) {
+    portugal += 1;
+}
+
+//australia # of goals score in last 5 games
+if (australia5 > italy5) {
+    australia += 1;
+}
+
+if (australia5 > portugal5) {
+    australia += 1;
+}
+
+if (australia5 > iran5) {
+    australia += 1;
+}
+
+//iran # of goals score in last 5 games
+if (iran5 > italy5) {
+    iran += 1;
+}
+
+if (iran5 > portugal5) {
+    iran += 1;
+}
+
+if (iran5 > australia5) {
+    iran += 1;
+}
+
+//iran # of goals conceded in last 5 games
+if (iranC5 > australiaC5) {
+    iran -= 1;
+}
+
+if (iranC5 > portugalC5) {
+    iran -= 1;
+}
+
+if (iranC5 > italyC5) {
+    iran -= 1;
+}
+
+//australia # of goals conceded in last 5 games
+if (australiaC5 > iranC5) {
+    australia -= 1;
+}
+
+if (australiaC5 > portugalC5) {
+    australia -= 1;
+}
+
+if (australiaC5 > italyC5) {
+    australia -= 1;
+}
+
+//portugal # of goals conceded in last 5 games
+if (portugalC5 > iranC5) {
+    portugal -= 1;
+}
+
+if (portugalC5 > australiaC5) {
+    portugal -= 1;
+}
+
+if (portugalC5 > italyC5) {
+    portugal -= 1;
+}
+
+//italy # of goals conceded in last 5 games
+if (italyC5 > iranC5) {
+    italy -= 1;
+}
+
+if (italyC5 > australiaC5) {
+    italy -= 1;
+}
+
+if (italyC5 > portugalC5) {
+    italy -= 1;
+}
+
+//italy # of goals victory in last 5 games
+if (italyV5 > portugalV5) {
+    italy += 1;
+}
+
+if (italyV5 > australiaV5) {
+    italy += 1;
+}
+
+if (italyV5 > iranV5) {
+    italy += 1;
+}
+
+//portugal # of goals victory in last 5 games
+if (portugalV5 > italyV5) {
+    portugal += 1;
+}
+
+if (portugalV5 > australiaV5) {
+    portugal += 1;
+}
+
+if (portugalV5 > iranV5) {
+    portugal += 1;
+}
+
+//australia # of goals victory in last 5 games
+if (australiaV5 > italyV5) {
+    australia += 1;
+}
+
+if (australiaV5 > portugalV5) {
+    australia += 1;
+}
+
+if (australiaV5 > iranV5) {
+    australia += 1;
+}
+
+//iran # of goals victory in last 5 games
+if (iranV5 > italyV5) {
+    iran += 1;
+}
+
+if (iranV5 > portugalV5) {
+    iran += 1;
+}
+
+if (iranV5 > australiaV5) {
+    iran += 1;
+}
+
+//iran # of defeats in last 5 games
+if (iranD5 > australiaD5) {
+    iran -= 1;
+}
+
+if (iranD5 > portugalD5) {
+    iran -= 1;
+}
+
+if (iranD5 > italyD5) {
+    iran -= 1;
+}
+
+//australia # of defeats in last 5 games
+if (australiaD5 > iranD5) {
+    australia -= 1;
+}
+
+if (australiaD5 > portugalD5) {
+    australia -= 1;
+}
+
+if (australiaD5 > italyD5) {
+    australia -= 1;
+}
+
+//portugal # of defeats in last 5 games
+if (portugalD5 > iranD5) {
+    portugal -= 1;
+}
+
+if (portugalD5 > australiaD5) {
+    portugal -= 1;
+}
+
+if (portugalD5 > italyD5) {
+    portugal -= 1;
+}
+
+//italy # of defeats in last 5 games
+if (italyD5 > iranD5) {
+    italy -= 1;
+}
+
+if (italyD5 > australiaD5) {
+    italy -= 1;
+}
+
+if (italyD5 > portugalD5) {
+    italy -= 1;
+}
+
+//italy factor of unexpectancy
+if (fitaly > firan) {
+    italy += 4;
+}
+
+if (fitaly > faustralia) {
+    italy += 4;
+}
+
+if (fitaly > fportugal) {
+    italy += 4;
+}
+
+//iran factor of unexpectancy
+if (firan > fitaly) {
+    iran += 4;
+}
+
+if (firan > faustralia) {
+    iran += 4;
+}
+
+if (firan > fportugal) {
+    iran += 4;
+}
+
+//australia factor of unexpectancy
+if (faustralia > fitaly) {
+    australia += 4;
+}
+
+if (faustralia > firan) {
+    australia += 4;
+}
+
+if (faustralia > fportugal) {
+    australia += 4;
+}
+
+//portugal factor of unexpectancy
+if (fportugal > fitaly) {
+    portugal += 4;
+}
+
+if (fportugal > firan) {
+    portugal += 4;
+}
+
+if (fportugal > faustralia) {
+    portugal += 4;
+}
+
+
+
+
     //1st place results
     if (italy > portugal && italy > australia && italy > iran) {
         cout << "Italy is the winner of Group A" << endl;
@@ -1926,7 +4253,7 @@ int main () {
 
     else {}
 
-    //2nd place results
+    //2nd place results of group A
    
     //Italy
     if (italy > portugal && italy > australia && italy < iran) {
